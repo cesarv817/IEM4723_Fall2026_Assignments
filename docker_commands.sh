@@ -9,5 +9,6 @@ docker push cesarv817/linear-regression-app:latest
 docker build -t volume-mounting .
 docker run --volume "C:\Users\cesar\OneDrive\Documents\GitHub\IEM_Fall2026_Assignments\assignment1\volume-mounting\data:/home/iem4723/data" volume-mounting
 # Question 3
-
+docker build -t logistic_regression_layered:latest
+docker run --volume "C:\Users\cesar\OneDrive\Documents\GitHub\IEM_Fall2026_Assignments\assignment1\layering\data:/home/iem4723/data" logistic_regression_layered:latest
 # Question 4

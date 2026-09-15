@@ -11,3 +11,5 @@ docker run --volume "C:\Users\cesar\OneDrive\Documents\GitHub\IEM_Fall2026_Assig
 docker build -t logistic_regression_layered:latest
 docker run --volume "C:\Users\cesar\OneDrive\Documents\GitHub\IEM_Fall2026_Assignments\assignment1\layering\data:/home/iem4723/data" logistic_regression_layered:latest
 # Question 4
+docker build -t simple_file_server:latest .
+docekr run -d --publish 3333:8000 simple _file_server:latest
